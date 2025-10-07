@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "packageManager": "yarn@4.10.3",
+  "type": "module",
+  "devDependencies": {
+    "@types/compression": "^1",
+    "@types/cookie-parser": "^1",
+    "@types/cors": "^2.8.19",
+    "@types/errorhandler": "^1",
+    "@types/express": "^5",
+    "@types/loadable__component": "^5.13.10",
+    "@types/loadable__server": "^5",
+    "@types/morgan": "^1",
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "@types/webpack-hot-middleware": "^2",
+    "errorhandler": "^1.5.1",
+    "webpack": "^5.102.1",
+    "webpack-dev-middleware": "^7.4.5",
+    "webpack-hot-middleware": "^2.26.1",
+    "webpack-hot-server-middleware": "^0.6.1"
+  },
+  "dependencies": {
+    "@loadable/component": "^5.16.7",
+    "@loadable/server": "^5.16.7",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.9.4",
+    "winston": "^3.18.3"
+  }
+}

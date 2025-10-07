@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon.json",
+  "watch": ["config", "tools/webpack", "tools/babel", "packages/server"],
+  "ignore": ["node_modules", "dist"],
+  "ext": "ts, mts, cts, tsx, js, mjs, cjs, jsx",
+  "execMap": {
+    "ts": "tsx"
+  },
+  "verbose": false
+}

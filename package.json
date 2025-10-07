@@ -1,0 +1,52 @@
+{
+  "name": "react-webpack-boilerplate",
+  "packageManager": "yarn@4.10.3",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx tools/commander/dev.ts",
+    "eslint": "eslint -c tools/eslint/config.mts",
+    "app": "yarn workspace app",
+    "server": "yarn workspace server",
+    "shared": "yarn workspace shared",
+    "build": "NODE_ENV=production tsx node_modules/webpack/bin/webpack.js --config tools/webpack/configs/dev.ts"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@eslint/js": "^9.37.0",
+    "@loadable/babel-plugin": "^5.16.1",
+    "@loadable/webpack-plugin": "^5.15.2",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
+    "@types/babel__core": "^7",
+    "@types/babel__preset-env": "^7",
+    "@types/commander": "^2.12.5",
+    "@types/loadable__webpack-plugin": "^5.15.0",
+    "@types/node": "^24.7.0",
+    "@types/react-refresh": "^0",
+    "@types/webpack-node-externals": "^3",
+    "babel-loader": "^10.0.0",
+    "commander": "^14.0.1",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-perfectionist": "^4.15.1",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^6.1.1",
+    "jiti": "^2.6.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "react-refresh": "^0.18.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

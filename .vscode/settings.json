@@ -1,0 +1,8 @@
+{
+  "eslint.options": {
+    "overrideConfigFile": "./tools/eslint/config.mts"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  }
+}
